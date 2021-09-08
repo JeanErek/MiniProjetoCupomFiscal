@@ -1,94 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Cupom Fiscal</title>
-  </head>
-  <body>
-    <!-- Aplicação do conteudo aprendido no modulo 1 Html Basico do curso -->
+    <link rel="stylesheet" href="./style.css" />
+</head>
 
-     <img src="./BrazilIcon.png" alt="" width="30px">
-      Rede de Supermercados <em>ZYZ</em> Ltda. &nbsp-&nbsp <br> CNPJ:00.000.000/0001-00 
-      Rua: Tatatatatata 1051 - <br> Bairro:Curururu - Santa Catarina - SC. <br>
-      --------------------------------------------------------------------------------- <br>
-     <h2>Cupom Fiscal</h2>
-     --------------------------------------------------------------------------------- <br>
-<table>
-    <tr>
-        <th>item</th>
-        <th>Codigo</th>
-        <th>Descrição</th>
-        <th>Qtde</th>
-        <th>Un</th>
-        <th>Vl.Un:</th>
-        <th>Vl Total:</th>
-        
-        <tr>    
-            <td>1</td>
-            <td>00000001023</td>
-            <td>Pão Frances</td>
-            <td>10</td>
-            <td>Kg</td>
-            <td>0,20</td>
-            <td>2,00</td>
-        </tr>
-        <tr>    
-            <td>2</td>
-            <td>00000001233</td>
-            <td>Mortadela L'A </td>
-            <td>1</td>
-            <td>Unid</td>
-            <td>4,59</td>
-            <td>4,59</td>
-        </tr>
-        <tr>    
-            <td>3</td>
-            <td>00000001423</td>
-            <td>Presunto Tutu</td>
-            <td>1</td>
-            <td>Unid</td>
-            <td>6,99</td>
-            <td>6,99</td>
-        </tr>
-        <tr>    
-            <td>4</td>
-            <td>00000001543</td>
-            <td>Margarina C/sal</td>
-            <td>1</td>
-            <td>Unid</td>
-            <td>13,00</td>
-            <td>13,00</td>
-        </tr>
-    </tr>
-</table>
---------------------------------------------------------------------------------- <br>
-<ul>
-    <li>Qtd Total de Itens ................................................. 10</li> 
-    <li>VALOR TOTAL R$ ............................................. 26,58</li> 
-    <li>VALOR TOTAL R$ ............................................. 0,00</li> 
-    <li>FORMA DE PAGAMENTO .......... VALOR PAGO R$</li> 
-    <LI>Dinheiro................................................................ 26,58</LI>
-</ul>
---------------------------------------------------------------------------------- <br>
-<table>
-    <tr>
-        <th>Nº 1000000222022</th>
-        <th>Série:2</th>
-        <th>05/09/2021</th>
-        <th>04:25</th>
-    </tr>
-       Consulte pela chave de acesso em
-</table>
-Consulte pela chave de acesso em:
-<a href="./pag2.html"> http// www.consulta/modelo.br</a><br>
---------------------------------------------------------------------------------- <br>
-<h2>CHAVE DE ACESSO</h2>
-0X0X 0X1 0031 0123 0032 0045 0043 0X0X 00DS0 0S2D 0IX3 <br>
---------------------------------------------------------------------------------- <br>
-consulta via leitor de QR Code <br>
-<img src="./QRCode.png" alt="study aplication" width="100px"><br>
---------------------------------------------------------------------------------- <br>
-  </body>
+<body>
+    <!-- Aplicação do conteudo aprendido no modulo 1 Html Basico + CSS basico do curso -->
+    <div class="container">
+        <header>
+            <img class="map" src="./BrazilIcon.png" alt="" width="50px" />
+            Rede de Supermercados ZYZ Ltda. CNPJ:00.000.000/0001-00 Rua: Tatatatatat - 1051
+            Bairro:Curururu - Santa Catarina - SC. <br>
+
+        </header>
+        -----------------------------------------
+        <h2>Cupom Fiscal</h2>
+        -----------------------------------------
+        <main>
+            <table>
+                <tr>
+                    <th>item</th>
+                    <th>Codigo</th>
+                    <th>Descrição</th>
+                    <th>Qtde</th>
+                    <th>Un</th>
+                    <th>Vl.Un:</th>
+                    <th>Vl Total:</th>
+                </tr>
+
+                <tr>
+                    <td>1</td>
+                    <td>00000001023</td>
+                    <td>Pão Frances</td>
+                    <td>10</td>
+                    <td>Kg</td>
+                    <td>0,20</td>
+                    <td>2,00</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>00000001233</td>
+                    <td>Mortadela L'A</td>
+                    <td>1</td>
+                    <td>Unid</td>
+                    <td>4,59</td>
+                    <td>4,59</td>
+                </tr>
+
+                <tr>
+                    <td>3</td>
+                    <td>00000001423</td>
+                    <td>Presunto Tutu</td>
+                    <td>1</td>
+                    <td>Unid</td>
+                    <td>6,99</td>
+                    <td>6,99</td>
+                </tr>
+
+                <tr>
+                    <td>4</td>
+                    <td>00000001543</td>
+                    <td>Margarina C/sal</td>
+                    <td>1</td>
+                    <td>Unid</td>
+                    <td>13,00</td>
+                    <td>13,00</td>
+                </tr>
+            </table>
+            <ul>
+                <li>
+                    Qtd Total de Itens --------------- 10
+                </li>
+                <li>
+                    VALOR TOTAL R$ ------------------- 26,58
+                </li>
+                <li>
+                    VALOR TOTAL R$ ------------------- 0,00
+                </li>
+                <li>FORMA DE PAGAMENTO ------- VALOR PAGO R$</li>
+                <li>
+                    DINHEIRO ------------------------- 26,58
+                </li>
+            </ul>
+            -----------------------------------------
+        </main>
+        <div class="key">
+            <table>
+                <tr>
+                    <th>Nº 1000000222022</th>
+                    <th>Série:2</th>
+                    <th>05/09/2021</th>
+                    <th>04:25</th>
+                </tr>
+                Consulte pela chave de acesso em
+            </table>
+
+            Consulte pela chave de acesso em:
+            <a href="./pag2.html"> http//www.consulta/modelo.br</a>
+            <br>-----------------------------------------
+            <br />
+            <h2>CHAVE DE ACESSO</h2>
+            0X0X 0X1 0031 0043 0X0X 00DS0 0S2D 0IX3 <br/>
+            -----------------------------------------
+        </div>
+        <br />
+        <footer>
+            consulta via leitor de QR Code <br />
+            <img src="./QRCode.png" alt="study aplication" width="150" />
+        </footer>
+    </div>
+</body>
+
 </html>

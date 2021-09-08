@@ -1,0 +1,49 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Courier New", Courier, monospace;
+}
+.container {
+  width: 400px;
+  height: 750px;
+  background-color: rgb(243, 243, 197);
+  margin: auto;
+  margin-top: 10px;
+}
+header {
+  text-align: center;
+  font-style: italic;
+}
+
+h2 {
+  margin: 0%;
+  text-align: center;
+  font-size: 2em;
+}
+table {
+  font-size: 10px;
+  text-align: center;
+}
+th {
+  padding: 5px;
+}
+ul {
+  list-style: none;
+  font-weight: bolder;
+  text-align: justify;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+}
+.key {
+  text-align: center;
+}
+a {
+  color: black;
+  font-weight: bold;
+}
+footer {
+  text-align: center;
+}
+.map{
+  float: left;
+}
